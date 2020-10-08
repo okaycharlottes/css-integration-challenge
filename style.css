@@ -1,0 +1,160 @@
+
+/*DEBUT DU PREMIER EXO*/
+body{
+    
+    margin: 0px;
+}
+
+    .container{
+        font-family: 'Fira Sans', sans-serif;
+        padding: 5%;
+    }
+    
+    
+   .contenue{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+   } 
+
+   .contenue p{
+       width: 230px;
+   }
+
+   .exo1{
+    color: rgb(83, 212, 83);
+}
+
+@media screen and (max-width: 1100px) {
+    .contenue {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .contenue {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+/* DEUXIEME EXO*/
+
+.containerbis{
+    width: 25%;
+    display: block;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Tajawal', sans-serif;
+    border: 10px solid #f2f2f2;
+    padding: 20px 20px;
+    background-color: #468df1;
+}
+
+
+.exo2{
+    font-size: 60px;
+    margin: 6px;
+
+}
+
+table {
+    border-collapse: collapse; 
+    border-spacing: 2px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.td {
+    padding-left: 50px;
+}
+
+
+th, td{
+    border-bottom: 1px solid #f2f2f2;
+    padding: 8px;
+    text-align: left;
+    opacity: 0.7;
+
+}
+
+
+
+.cart2{
+    text-align: right;
+    text-transform: uppercase;
+    
+}
+
+.cart p{
+    margin-bottom: 0;
+    opacity: 0.7;
+
+
+}
+
+
+
+@media screen and (max-width: 1482px) {
+     .image img {
+        width: 90%;
+    }
+}
+/* FIN DU DEUXIEME EXO*/
+/*DEBUT DU TROISIEME EXO */
+
+.container3{
+    display: flex;
+    font-family: 'Noto Sans HK', sans-serif;
+    justify-content: center;
+
+}
+
+.info{
+    width: 18%;
+    padding-left: 2%;
+    border: 1px solid #eee;
+    
+}
+
+.info p{
+    padding-bottom: 2%;
+    color: rgb(172, 172, 172);
+    margin-bottom: 0;
+    margin-top: 3px;
+
+
+}
+
+.info h1{
+    font-size:20px;
+    margin-bottom: 0;
+}
+
+.josiah img{
+    height: 45px;
+    border-radius: 50%;
+    
+}
+
+.josiah{
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.josiah p{
+    color: black;
+}
+
+
+.gris{
+    color: rgb(172, 172, 172);
+}
+
+.carte{
+    border: 1px solid lightgray;
+}
+.save{
+    margin-right: 4%;
+}
